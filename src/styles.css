@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7fdfc;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 15px 10px;
+}
+
+.header a {
+    float: left;
+    color: #076709;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+}
+
+input {
+    width: 143px;
+}
+
+.weather-form {
+    width: 150px;
+    border: 1px solid #f1f1f1;
+    padding: 20px;
+    padding-bottom: 30px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-around;
+}
+
+.horizonal-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item {
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.flex-item-header {
+    width: 100%;
+}

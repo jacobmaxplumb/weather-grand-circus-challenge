@@ -1,0 +1,6 @@
+<form [formGroup]="searchForm" (submit)="formSubmitted(searchForm.controls['city'].value)" class="weather-form">
+    <div>City</div>
+    <input type="text" formControlName="city" />
+    <button type="submit" [disabled]="!searchForm.valid">Submit</button>
+    <div *ngIf="hasError" class="error-message">{{errorMessage}}</div>
+</form>
