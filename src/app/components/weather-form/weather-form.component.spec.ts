@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { WeatherFormComponent } from './weather-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 describe('WeatherFormComponent', () => {
   let component: WeatherFormComponent;
@@ -8,7 +9,8 @@ describe('WeatherFormComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ WeatherFormComponent ]
+      declarations: [ WeatherFormComponent ],
+      imports: [ ReactiveFormsModule ]
     })
     .compileComponents();
   }));
